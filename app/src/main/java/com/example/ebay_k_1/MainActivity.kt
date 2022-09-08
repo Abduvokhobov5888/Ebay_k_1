@@ -69,11 +69,16 @@ class MainActivity : AppCompatActivity() {
     fun getFreeShipping(): ArrayList<Free_shipping>{
         val items1: ArrayList<Free_shipping> = ArrayList()
 
-        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00 29% OFF", R.drawable.watch))
-        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00 29% OFF", R.drawable.watch))
-        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00 29% OFF", R.drawable.watch))
-        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00 29% OFF", R.drawable.watch))
-        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00 29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
+        items1.add(Free_shipping("Bose QuietComfort Earbuds","$199.00","$279.00","29% OFF", R.drawable.watch))
 
 
         return items1

@@ -30,12 +30,14 @@ class Free_ShippingAdapter(var context: Context, var items1:ArrayList<Free_shipp
             var text1 = holder.text1
             var text2 = holder.text2
             var text3 = holder.text3
+            var text4 = holder.text4
             var image_free = holder.image_free
 
             image_free.setImageResource(items1.image_free)
             text1.text = items1.text1
             text2.text = items1.text2
             text3.text = items1.text3
+            text4.text = items1.text4
 
             text3.setPaintFlags(text3.getPaintFlags() or Paint.STRIKE_THRU_TEXT_FLAG)
         }
@@ -46,12 +48,14 @@ class Free_ShippingAdapter(var context: Context, var items1:ArrayList<Free_shipp
         var text1: TextView
         var text2: TextView
         var text3: TextView
+        var text4: TextView
 
         init {
             image_free = view.findViewById(R.id.free_image_tv)
             text1 = view.findViewById(R.id.text1)
             text2 = view.findViewById(R.id.text2)
             text3 = view.findViewById(R.id.text3)
+            text4 = view.findViewById(R.id.text4)
         }
     }
 
